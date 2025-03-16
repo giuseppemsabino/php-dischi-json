@@ -35,11 +35,11 @@ require_once('./funzioni.php');
             
         </div>
         <form action="./server.php" method="post">
-            <input class="form-control m-1" type="text" value="test" id="titolo" name="titolo" placeholder="Inserisci il titolo">
-            <input class="form-control m-1" type="text" value="test" id="artista" name="artista" placeholder="Inserisci l'artista">   
-            <input class="form-control m-1" type="text" value="test" id="anno_pubblicazione" name="anno_pubblicazione" placeholder="Inserisci l'anno di pubblicazione">
-            <input class="form-control m-1" type="text" value="test" id="url_cover" name="url_cover" placeholder="Inserisci l'url della cover">
-            <input class="form-control m-1" type="text" value="test" id="genere" name="genere" placeholder="Inserisci il genere">
+            <input class="form-control m-1" type="text" id="titolo" name="titolo" placeholder="Inserisci il titolo">
+            <input class="form-control m-1" type="text" id="artista" name="artista" placeholder="Inserisci l'artista">   
+            <input class="form-control m-1" type="text" id="anno_pubblicazione" name="anno_pubblicazione" placeholder="Inserisci l'anno di pubblicazione">
+            <input class="form-control m-1" type="text" id="url_cover" name="url_cover" placeholder="Inserisci l'url della cover">
+            <input class="form-control m-1" type="text" id="genere" name="genere" placeholder="Inserisci il genere">
             <button class="btn btn-primary m-1" type="submit" >Aggiungi</button>
         </form>
     </div>
